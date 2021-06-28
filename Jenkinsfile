@@ -11,7 +11,7 @@ node {
         /* This builds the actual image: synonymous to
         * docker build on the command line */
 
-        app = docker.build("davidinane/icentra-repo")
+        app = docker.build("davidinane/icentrajune28")
     }
 
     stage('Test image'){
